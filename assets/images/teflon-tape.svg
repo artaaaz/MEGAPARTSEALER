@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgTape" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="tapeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#b45309"/>
+      <stop offset="50%" stop-color="#78350f"/>
+      <stop offset="100%" stop-color="#451a03"/>
+    </linearGradient>
+    <linearGradient id="coreGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bgTape)" rx="12"/>
+  <!-- Isometric Roll -->
+  <g transform="translate(130, 70)">
+    <!-- Outer Roll -->
+    <ellipse cx="70" cy="90" rx="70" ry="45" fill="url(#tapeGrad)" stroke="#f59e0b" stroke-width="2"/>
+    <rect x="0" y="50" width="140" height="40" fill="url(#tapeGrad)"/>
+    <ellipse cx="70" cy="50" rx="70" ry="45" fill="#d97706" stroke="#fcd34d" stroke-width="2"/>
+    <!-- Core Hole -->
+    <ellipse cx="70" cy="50" rx="30" ry="20" fill="url(#coreGrad)" stroke="#94a3b8" stroke-width="2"/>
+    <ellipse cx="70" cy="50" rx="20" ry="12" fill="#0f172a"/>
+    <!-- Tape Unrolling Tail -->
+    <path d="M 140 70 C 180 90 220 100 240 120" stroke="#f59e0b" stroke-width="12" stroke-linecap="round" fill="none"/>
+  </g>
+  <rect x="20" y="20" width="120" height="26" rx="13" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b"/>
+  <text x="80" y="37" fill="#fbbf24" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" text-anchor="middle">🛡️ TEFLON TAPE</text>
+  <text x="380" y="37" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" text-anchor="end">19mm x 10m ROLL</text>
+</svg>

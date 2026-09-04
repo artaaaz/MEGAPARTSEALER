@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgPcb" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bgPcb)" rx="12"/>
+  <!-- Green PCB Board -->
+  <g transform="translate(70, 50)">
+    <rect x="0" y="0" width="260" height="190" rx="8" fill="#065f46" stroke="#047857" stroke-width="3"/>
+    <!-- Copper traces -->
+    <g stroke="#34d399" stroke-width="1.5" fill="none" opacity="0.4">
+      <path d="M 20 20 L 50 20 L 80 50 L 120 50"/>
+      <path d="M 20 40 L 40 40 L 60 60 L 60 120 L 100 160"/>
+      <path d="M 180 30 L 220 30 L 240 50 L 240 140"/>
+      <path d="M 140 80 L 160 80 L 180 100 L 180 150"/>
+    </g>
+    <!-- IC Chip -->
+    <rect x="90" y="70" width="70" height="50" rx="3" fill="#0f172a" stroke="#334155" stroke-width="1.5"/>
+    <circle cx="100" cy="80" r="2" fill="#94a3b8"/>
+    <text x="125" y="98" fill="#94a3b8" font-family="'Courier New', monospace" font-size="8" text-anchor="middle">SPEED IC</text>
+    <!-- IC Pins -->
+    <g fill="#cbd5e1">
+      <rect x="95" y="65" width="4" height="5"/>
+      <rect x="107" y="65" width="4" height="5"/>
+      <rect x="119" y="65" width="4" height="5"/>
+      <rect x="131" y="65" width="4" height="5"/>
+      <rect x="143" y="65" width="4" height="5"/>
+      <rect x="95" y="120" width="4" height="5"/>
+      <rect x="107" y="120" width="4" height="5"/>
+      <rect x="119" y="120" width="4" height="5"/>
+      <rect x="131" y="120" width="4" height="5"/>
+      <rect x="143" y="120" width="4" height="5"/>
+    </g>
+    <!-- Capacitors -->
+    <circle cx="45" cy="80" r="14" fill="#0284c7" stroke="#38bdf8" stroke-width="1.5"/>
+    <circle cx="45" cy="80" r="10" fill="#0369a1"/>
+    <!-- Potentiometer Dial -->
+    <circle cx="210" cy="80" r="18" fill="#334155" stroke="#94a3b8" stroke-width="2"/>
+    <circle cx="210" cy="80" r="8" fill="#0284c7"/>
+    <line x1="210" y1="72" x2="210" y2="80" stroke="#ffffff" stroke-width="2"/>
+    <!-- Terminal block -->
+    <rect x="20" y="145" width="60" height="25" rx="3" fill="#15803d" stroke="#22c55e"/>
+    <circle cx="35" cy="157" r="3" fill="#cbd5e1"/>
+    <circle cx="50" cy="157" r="3" fill="#cbd5e1"/>
+    <circle cx="65" cy="157" r="3" fill="#cbd5e1"/>
+  </g>
+  <rect x="20" y="20" width="130" height="26" rx="13" fill="#10b981" fill-opacity="0.2" stroke="#10b981"/>
+  <text x="85" y="37" fill="#34d399" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" text-anchor="middle">📟 PCB CONTROLLER</text>
+  <text x="380" y="37" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" text-anchor="end">SPEED GOVERNOR</text>
+</svg>

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgBelt" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bgBelt)" rx="12"/>
+  <!-- Pulleys and Toothed Timing Belt -->
+  <g transform="translate(60, 60)">
+    <!-- Pulley Left -->
+    <circle cx="60" cy="90" r="45" fill="#334155" stroke="#94a3b8" stroke-width="3"/>
+    <circle cx="60" cy="90" r="18" fill="#0f172a" stroke="#cbd5e1" stroke-width="2"/>
+    <!-- Pulley Right -->
+    <circle cx="220" cy="90" r="45" fill="#334155" stroke="#94a3b8" stroke-width="3"/>
+    <circle cx="220" cy="90" r="18" fill="#0f172a" stroke="#cbd5e1" stroke-width="2"/>
+    
+    <!-- Belt Outline -->
+    <path d="M 60 45 L 220 45 A 45 45 0 0 1 265 90 A 45 45 0 0 1 220 135 L 60 135 A 45 45 0 0 1 15 90 A 45 45 0 0 1 60 45 Z" fill="none" stroke="#f97316" stroke-width="12" stroke-linejoin="round"/>
+    
+    <!-- Teeth representation -->
+    <path d="M 60 51 L 220 51" stroke="#ea580c" stroke-width="4" stroke-dasharray="4,4"/>
+    <path d="M 60 129 L 220 129" stroke="#ea580c" stroke-width="4" stroke-dasharray="4,4"/>
+  </g>
+  <rect x="20" y="20" width="100" height="26" rx="13" fill="#f97316" fill-opacity="0.2" stroke="#f97316"/>
+  <text x="70" y="37" fill="#fb923c" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" text-anchor="middle">⚙️ BELT GUIDE</text>
+  <text x="380" y="37" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" text-anchor="end">PITCH TOOTHED</text>
+</svg>

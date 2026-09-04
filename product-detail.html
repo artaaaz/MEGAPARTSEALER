@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detail Produk — MEGAPARTSEALER</title>
+  <meta name="description" content="Detail spesifikasi produk spare part mesin sealer MEGAPARTSEALER. Pembelian aman langsung via Shopee.">
+  
+  <!-- CSS Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Modern Marketplace Navbar -->
+  <header class="navbar">
+    <div class="container navbar-container">
+      <a href="index.html" class="navbar-brand">
+        MEGAPARTSEALER
+      </a>
+
+      <form class="navbar-search-form" action="products.html" method="GET">
+        <input type="text" name="q" class="navbar-search-input" placeholder="Cari kawat, kain teflon, atau spare part..." autocomplete="off">
+        <button type="submit" class="navbar-search-btn" aria-label="Cari">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+        </button>
+      </form>
+
+      <div class="navbar-right">
+        <nav class="navbar-nav">
+          <a href="products.html" class="nav-link active">Produk</a>
+          <a href="about.html" class="nav-link">Tentang</a>
+          <a href="contact.html" class="nav-link">Kontak</a>
+        </nav>
+
+        <a href="https://shopee.co.id/megapartsealer" target="_blank" rel="noopener noreferrer" class="btn-shopee-nav">
+          Kunjungi Shopee ↗
+        </a>
+
+        <button type="button" class="hamburger-btn" aria-label="Menu">
+          <svg width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Breadcrumb navigation -->
+  <div class="container" style="padding-top: 24px; padding-bottom: 12px;">
+    <div style="font-size: 0.85rem; color: var(--text-muted); display: flex; align-items: center; gap: 8px;">
+      <a href="index.html" style="color: var(--text-muted);">Home</a>
+      <span>/</span>
+      <a href="products.html" style="color: var(--text-muted);">Produk</a>
+      <span>/</span>
+      <span id="breadcrumbCategory" style="color: var(--text-muted);">Kategori</span>
+      <span>/</span>
+      <span id="breadcrumbTitle" style="color: var(--text-main); font-weight: 600;">Nama Produk</span>
+    </div>
+  </div>
+
+  <!-- Main Product Detail Layout -->
+  <main class="container" style="padding-top: 24px; padding-bottom: 80px;">
+    <div class="product-detail-layout">
+      
+      <!-- Left: Large Product Image + Thumbnails -->
+      <div class="detail-gallery-box">
+        <div class="detail-main-view">
+          <img id="detailImg" src="assets/images/kawat-motif-01.svg" alt="Foto Produk">
+        </div>
+
+        <div class="detail-thumbs-strip">
+          <div class="thumb-item active" id="thumb1">
+            <img id="thumbImg1" src="assets/images/kawat-motif-01.svg" alt="Thumbnail 1">
+          </div>
+        </div>
+      </div>
+
+      <!-- Right: Product Information & Shopee CTA -->
+      <div class="detail-info-box">
+        <span class="detail-category-label" id="detailCategory">Kawat Motif</span>
+        <h1 class="detail-product-title" id="detailTitle">Kawat Motif Mesin Hand Impulse Sealer FS-500</h1>
+        
+        <div class="detail-meta-strip">
+          <span class="detail-stock-badge">
+            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3"><polyline points="20 6 9 17 4 12"/></svg>
+            Tersedia
+          </span>
+          <span style="font-size: 0.85rem; color: var(--text-muted);" id="detailMachineTag">Model: FS-500</span>
+        </div>
+
+        <div class="detail-product-price" id="detailPrice">Rp35.000</div>
+
+        <p class="detail-product-desc" id="detailDesc">
+          Kawat elemen pemanas bermotif untuk mesin hand impulse sealer FS-500.
+        </p>
+
+        <!-- Specifications Table -->
+        <div class="detail-specs-container">
+          <h3 class="detail-specs-heading">Informasi Produk</h3>
+          <table class="specs-table">
+            <tbody id="detailSpecsBody">
+              <!-- Rendered dynamically -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="detail-cta-group">
+          <a href="#" target="_blank" rel="noopener noreferrer" class="btn-shopee-primary" id="btnDetailShopee">
+            Beli di Shopee ↗
+          </a>
+          <a href="products.html" class="btn-back-products">
+            &larr; Kembali ke Produk
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Minimal Marketplace Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div>
+          <div class="footer-brand">MEGAPARTSEALER</div>
+          <p class="footer-desc">
+            Spare part sealer untuk kebutuhan sealing yang praktis dan mudah ditemukan.
+          </p>
+        </div>
+
+        <nav class="footer-nav">
+          <a href="products.html">Produk</a>
+          <a href="about.html">Tentang</a>
+          <a href="contact.html">Kontak</a>
+          <a href="https://shopee.co.id/megapartsealer" target="_blank" rel="noopener noreferrer" style="color: var(--primary-blue); font-weight: 600;">
+            Shopee ↗
+          </a>
+        </nav>
+      </div>
+
+      <div class="footer-bottom">
+        &copy; 2026 MEGAPARTSEALER
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/products.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const urlParams = new URLSearchParams(window.location.search);
+      const id = urlParams.get("id");
+
+      let product = null;
+      if (id) product = getProductById(id);
+      if (!product) product = getAllProducts()[0];
+
+      // Update Headings & Breadcrumbs
+      document.title = `${product.name} — MEGAPARTSEALER`;
+      document.getElementById("breadcrumbTitle").textContent = product.name;
+      document.getElementById("breadcrumbCategory").innerHTML = `<a href="products.html?cat=${encodeURIComponent(product.category)}" style="color: var(--text-muted);">${product.category}</a>`;
+
+      // Update Media & Main Details
+      document.getElementById("detailImg").src = product.image;
+      document.getElementById("detailImg").alt = product.name;
+      document.getElementById("thumbImg1").src = product.image;
+
+      document.getElementById("detailCategory").textContent = product.category;
+      document.getElementById("detailTitle").textContent = product.name;
+      document.getElementById("detailPrice").textContent = formatRupiah(product.price);
+      document.getElementById("detailDesc").textContent = product.description;
+
+      if (product.machine) {
+        document.getElementById("detailMachineTag").textContent = `Model: ${product.machine}`;
+      } else {
+        document.getElementById("detailMachineTag").style.display = "none";
+      }
+
+      // Shopee CTA
+      const shopeeBtn = document.getElementById("btnDetailShopee");
+      if (shopeeBtn) {
+        shopeeBtn.href = product.shopeeUrl || SHOPEE_STORE_URL;
+      }
+
+      // Specifications Table
+      const specsBody = document.getElementById("detailSpecsBody");
+      if (specsBody && product.specifications) {
+        specsBody.innerHTML = Object.entries(product.specifications).map(([key, val]) => `
+          <tr>
+            <td>${key}</td>
+            <td>${val}</td>
+          </tr>
+        `).join("");
+      }
+    });
+  </script>
+</body>
+</html>

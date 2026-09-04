@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" width="100%" height="100%">
+  <defs>
+    <filter id="heroStudioShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="24" stdDeviation="20" flood-color="#000000" flood-opacity="0.08"/>
+    </filter>
+    <linearGradient id="heroMetal" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="40%" stop-color="#cbd5e1"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+    <linearGradient id="heroBrass" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#854d0e"/>
+    </linearGradient>
+    <linearGradient id="heroTeflon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d97706"/>
+      <stop offset="60%" stop-color="#92400e"/>
+      <stop offset="100%" stop-color="#78350f"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Clean Background Frame -->
+  <rect width="640" height="480" rx="16" fill="#f8fafc"/>
+  <ellipse cx="320" cy="380" rx="260" ry="50" fill="#e2e8f0" opacity="0.4"/>
+
+  <!-- Minimal Composition: Teflon Sheet in Background -->
+  <g transform="translate(180, 100) rotate(8)" filter="url(#heroStudioShadow)">
+    <path d="M 20 20 L 260 0 L 280 220 L 40 240 Z" fill="url(#heroTeflon)" stroke="#d97706" stroke-width="1"/>
+    <path d="M 260 0 L 210 50 L 280 50 Z" fill="#78350f"/>
+  </g>
+
+  <!-- Clean Precision Nichrome Sealing Wires in Foreground -->
+  <g transform="translate(120, 260) rotate(-12)" filter="url(#heroStudioShadow)">
+    <!-- Eyelet Left -->
+    <circle cx="20" cy="30" r="16" fill="url(#heroBrass)" stroke="#eab308" stroke-width="1"/>
+    <circle cx="20" cy="30" r="6" fill="#f8fafc"/>
+    <rect x="25" y="24" width="30" height="12" rx="2" fill="url(#heroBrass)"/>
+
+    <!-- Wave Motif Ribbon -->
+    <rect x="50" y="24" width="300" height="12" rx="1" fill="url(#heroMetal)"/>
+    <path d="M 55 30 Q 65 20 75 30 T 95 30 T 115 30 T 135 30 T 155 30 T 175 30 T 195 30 T 215 30 T 235 30 T 255 30 T 275 30 T 295 30 T 315 30 T 335 30 T 345 30" fill="none" stroke="#1B2CC1" stroke-width="2" opacity="0.8"/>
+
+    <!-- Eyelet Right -->
+    <rect x="345" y="24" width="30" height="12" rx="2" fill="url(#heroBrass)"/>
+    <circle cx="380" cy="30" r="16" fill="url(#heroBrass)" stroke="#eab308" stroke-width="1"/>
+    <circle cx="380" cy="30" r="6" fill="#f8fafc"/>
+  </g>
+
+  <!-- Second Wire (Flat Ribbon) Crossing -->
+  <g transform="translate(100, 310) rotate(-4)" filter="url(#heroStudioShadow)">
+    <circle cx="20" cy="30" r="14" fill="url(#heroBrass)" stroke="#eab308" stroke-width="1"/>
+    <circle cx="20" cy="30" r="5" fill="#f8fafc"/>
+    <rect x="25" y="27" width="30" height="6" rx="1" fill="url(#heroBrass)"/>
+    <rect x="50" y="27" width="360" height="6" rx="1" fill="url(#heroMetal)"/>
+    <line x1="50" y1="28" x2="410" y2="28" stroke="#ffffff" stroke-width="1"/>
+    <rect x="405" y="27" width="30" height="6" rx="1" fill="url(#heroBrass)"/>
+    <circle cx="440" cy="30" r="14" fill="url(#heroBrass)" stroke="#eab308" stroke-width="1"/>
+    <circle cx="440" cy="30" r="5" fill="#f8fafc"/>
+  </g>
+</svg>

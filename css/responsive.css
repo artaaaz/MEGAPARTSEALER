@@ -1,0 +1,170 @@
+/* ==========================================================================
+   MEGAPARTSEALER — RESPONSIVE DESIGN & BREAKPOINTS
+   Desktop: 4 columns | Tablet: 3 columns | Mobile: 2 columns
+   ========================================================================== */
+
+/* Laptop / Small Desktop (< 1080px) */
+@media (max-width: 1080px) {
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+
+  .category-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Tablet Screens (< 868px) */
+@media (max-width: 868px) {
+  .navbar-container {
+    grid-template-columns: auto 1fr auto;
+    gap: 16px;
+  }
+
+  .navbar-right .navbar-nav {
+    position: fixed;
+    top: var(--header-height);
+    left: 0;
+    width: 100%;
+    background-color: var(--bg-white);
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px 24px;
+    gap: 14px;
+    border-bottom: 1px solid var(--border-light);
+    transform: translateY(-120%);
+    opacity: 0;
+    visibility: hidden;
+    transition: var(--transition);
+    z-index: 99;
+  }
+
+  .navbar-right .navbar-nav.mobile-active {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+  }
+
+  .hamburger-btn {
+    display: block;
+  }
+
+  .btn-shopee-nav {
+    display: none;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px;
+  }
+
+  .why-grid {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .product-detail-layout {
+    grid-template-columns: 1fr;
+    gap: 36px;
+  }
+}
+
+/* Mobile Screens (< 640px) */
+@media (max-width: 640px) {
+  .container {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .section-spacing {
+    padding-top: 36px;
+    padding-bottom: 36px;
+  }
+
+  .hero-compact {
+    padding: 32px 0 28px 0;
+  }
+
+  .hero-compact-title {
+    font-size: 1.5rem;
+  }
+
+  .hero-search-box {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hero-search-btn {
+    width: 100%;
+  }
+
+  /* 2 Columns on Mobile for Marketplace Experience */
+  .category-grid-4 {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .category-card {
+    padding: 12px;
+    gap: 10px;
+  }
+
+  .category-crop-wrap {
+    width: 40px;
+    height: 40px;
+  }
+
+  .category-info h3 {
+    font-size: 0.85rem;
+  }
+
+  .category-info p {
+    font-size: 0.75rem;
+  }
+
+  .product-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .product-card-body {
+    padding: 12px;
+  }
+
+  .product-card-title {
+    font-size: 0.85rem;
+    min-height: 2.5em;
+  }
+
+  .product-card-price {
+    font-size: 0.95rem;
+    margin-bottom: 10px;
+  }
+
+  .product-card-actions {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .detail-cta-group {
+    flex-direction: column;
+    align-items: stretch;
+  }
+
+  .btn-shopee-primary {
+    width: 100%;
+    text-align: center;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .footer-nav {
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}

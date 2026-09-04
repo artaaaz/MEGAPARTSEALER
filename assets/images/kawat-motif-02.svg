@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <defs>
+    <filter id="softShadow2" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000000" flood-opacity="0.07"/>
+    </filter>
+    <linearGradient id="metalWire2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="35%" stop-color="#94a3b8"/>
+      <stop offset="70%" stop-color="#64748b"/>
+      <stop offset="100%" stop-color="#334155"/>
+    </linearGradient>
+    <linearGradient id="brassEyelet2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fef08a"/>
+      <stop offset="50%" stop-color="#ca8a04"/>
+      <stop offset="100%" stop-color="#854d0e"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="600" height="450" fill="#fcfcfd"/>
+  <ellipse cx="300" cy="320" rx="220" ry="40" fill="#f1f5f9" opacity="0.6"/>
+
+  <!-- Product Illustration: Kawat Motif 02 (Toothed Sawtooth Pattern) -->
+  <g transform="translate(100, 180)" filter="url(#softShadow2)">
+    <circle cx="20" cy="35" r="16" fill="url(#brassEyelet2)" stroke="#eab308" stroke-width="1"/>
+    <circle cx="20" cy="35" r="6" fill="#fcfcfd"/>
+    <rect x="25" y="28" width="30" height="14" rx="2" fill="url(#brassEyelet2)"/>
+
+    <!-- Main Wire Base -->
+    <path d="M 50 28 L 350 28 L 350 42 L 50 42 Z" fill="url(#metalWire2)"/>
+
+    <!-- Toothed Serrated Motif Pattern -->
+    <g fill="#1B2CC1" opacity="0.65">
+      <polygon points="60,28 65,35 70,28"/>
+      <polygon points="75,28 80,35 85,28"/>
+      <polygon points="90,28 95,35 100,28"/>
+      <polygon points="105,28 110,35 115,28"/>
+      <polygon points="120,28 125,35 130,28"/>
+      <polygon points="135,28 140,35 145,28"/>
+      <polygon points="150,28 155,35 160,28"/>
+      <polygon points="165,28 170,35 175,28"/>
+      <polygon points="180,28 185,35 190,28"/>
+      <polygon points="195,28 200,35 205,28"/>
+      <polygon points="210,28 215,35 220,28"/>
+      <polygon points="225,28 230,35 235,28"/>
+      <polygon points="240,28 245,35 250,28"/>
+      <polygon points="255,28 260,35 265,28"/>
+      <polygon points="270,28 275,35 280,28"/>
+      <polygon points="285,28 290,35 295,28"/>
+      <polygon points="300,28 305,35 310,28"/>
+      <polygon points="315,28 320,35 325,28"/>
+      <polygon points="330,28 335,35 340,28"/>
+    </g>
+
+    <!-- Bottom Mirror Teeth -->
+    <g fill="#1B2CC1" opacity="0.65">
+      <polygon points="60,42 65,35 70,42"/>
+      <polygon points="75,42 80,35 85,42"/>
+      <polygon points="90,42 95,35 100,42"/>
+      <polygon points="105,42 110,35 115,42"/>
+      <polygon points="120,42 125,35 130,42"/>
+      <polygon points="135,42 140,35 145,42"/>
+      <polygon points="150,42 155,35 160,42"/>
+      <polygon points="165,42 170,35 175,42"/>
+      <polygon points="180,42 185,35 190,42"/>
+      <polygon points="195,42 200,35 205,42"/>
+      <polygon points="210,42 215,35 220,42"/>
+      <polygon points="225,42 230,35 235,42"/>
+      <polygon points="240,42 245,35 250,42"/>
+      <polygon points="255,42 260,35 265,42"/>
+      <polygon points="270,42 275,35 280,42"/>
+      <polygon points="285,42 290,35 295,42"/>
+      <polygon points="300,42 305,35 310,42"/>
+      <polygon points="315,42 320,35 325,42"/>
+      <polygon points="330,42 335,35 340,42"/>
+    </g>
+
+    <rect x="345" y="28" width="30" height="14" rx="2" fill="url(#brassEyelet2)"/>
+    <circle cx="380" cy="35" r="16" fill="url(#brassEyelet2)" stroke="#eab308" stroke-width="1"/>
+    <circle cx="380" cy="35" r="6" fill="#fcfcfd"/>
+  </g>
+</svg>

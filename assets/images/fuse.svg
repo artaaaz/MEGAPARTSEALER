@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgFuse" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="capGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8fafc"/>
+      <stop offset="50%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#475569"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="300" fill="url(#bgFuse)" rx="12"/>
+  <!-- Thermal Ceramic Fuse -->
+  <g transform="translate(60, 100)">
+    <!-- Leads -->
+    <line x1="20" y1="50" x2="80" y2="50" stroke="#cbd5e1" stroke-width="6" stroke-linecap="round"/>
+    <line x1="200" y1="50" x2="260" y2="50" stroke="#cbd5e1" stroke-width="6" stroke-linecap="round"/>
+    
+    <!-- Body -->
+    <rect x="75" y="30" width="130" height="40" rx="6" fill="#f8fafc" stroke="#cbd5e1" stroke-width="2"/>
+    <rect x="75" y="30" width="20" height="40" fill="url(#capGrad)"/>
+    <rect x="185" y="30" width="20" height="40" fill="url(#capGrad)"/>
+    
+    <text x="140" y="55" fill="#0f172a" font-family="'Segoe UI', sans-serif" font-size="12" font-weight="bold" text-anchor="middle">240°C 10A 250V</text>
+  </g>
+  <rect x="20" y="20" width="100" height="26" rx="13" fill="#f59e0b" fill-opacity="0.2" stroke="#f59e0b"/>
+  <text x="70" y="37" fill="#fbbf24" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" text-anchor="middle">⚡ FUSE THERMAL</text>
+  <text x="380" y="37" fill="#94a3b8" font-family="'Segoe UI', sans-serif" font-size="11" font-weight="600" text-anchor="end">KERAMIK 10A</text>
+</svg>
