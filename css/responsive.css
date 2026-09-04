@@ -4,7 +4,6 @@
    ========================================================================== */
 
 /* Laptop / Small Desktop (< 1080px) */
-/* Laptop / Small Desktop (< 1080px) */
 @media (max-width: 1080px) {
   .product-grid {
     grid-template-columns: repeat(3, 1fr);
@@ -57,12 +56,12 @@
   }
 
   .promo-carousel-section {
-    padding-top: 20px;
-    padding-bottom: 24px;
+    padding-top: 16px;
+    padding-bottom: 16px;
   }
 
   .promo-carousel-wrapper {
-    aspect-ratio: 2.2 / 1;
+    aspect-ratio: 2.4 / 1;
     border-radius: 12px;
   }
 
@@ -74,7 +73,7 @@
 
   .product-grid {
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
+    gap: 14px;
   }
 
   .why-grid {
@@ -90,43 +89,31 @@
 
 /* Mobile Screens (< 640px) */
 @media (max-width: 640px) {
-  .container {
+  .container,
+  .container-banner {
     padding-left: 16px;
     padding-right: 16px;
   }
 
   .section-spacing {
-    padding-top: 32px;
+    padding-top: 20px;
+    padding-bottom: 24px;
+  }
+
+  .section-categories {
+    padding-top: 10px;
+    padding-bottom: 16px;
+  }
+
+  .section-products {
+    padding-top: 10px;
     padding-bottom: 32px;
-  }
-
-  .hero-compact {
-    padding: 24px 0 20px 0;
-  }
-
-  .hero-compact-title {
-    font-size: 1.35rem;
-  }
-
-  .hero-compact-desc {
-    font-size: 0.85rem;
-    margin-bottom: 14px;
-  }
-
-  .hero-search-box {
-    flex-direction: column;
-    gap: 8px;
-  }
-
-  .hero-search-btn {
-    width: 100%;
-    padding: 11px;
   }
 
   /* Promo Carousel on Mobile */
   .promo-carousel-section {
-    padding-top: 16px;
-    padding-bottom: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
   }
 
   .promo-carousel-wrapper {
