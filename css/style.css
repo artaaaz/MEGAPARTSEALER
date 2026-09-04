@@ -496,37 +496,46 @@ button, input, select, textarea {
 
 .product-card-actions {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding-top: 10px;
-  border-top: 1px solid var(--border-subtle);
+  flex-direction: column;
   gap: 8px;
-}
-
-.btn-card-detail {
-  font-size: 0.825rem;
-  font-weight: 600;
-  color: var(--text-main);
-  transition: var(--transition);
-}
-
-.btn-card-detail:hover {
-  color: var(--primary-blue);
+  padding-top: 12px;
+  border-top: 1px solid var(--border-subtle);
 }
 
 .btn-card-shopee {
-  font-size: 0.825rem;
-  font-weight: 600;
-  color: var(--primary-blue);
   display: inline-flex;
   align-items: center;
-  gap: 2px;
+  justify-content: center;
+  gap: 6px;
+  width: 100%;
+  padding: 9px 12px;
+  background-color: var(--primary-blue);
+  color: var(--text-white);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  border-radius: 6px;
+  text-align: center;
   transition: var(--transition);
 }
 
 .btn-card-shopee:hover {
-  color: var(--primary-blue-hover);
-  transform: translateX(2px);
+  background-color: var(--primary-blue-hover);
+  color: var(--text-white);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 10px rgba(27, 44, 193, 0.2);
+}
+
+.btn-card-detail {
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  text-align: center;
+  transition: var(--transition);
+  padding: 2px 0;
+}
+
+.btn-card-detail:hover {
+  color: var(--primary-blue);
 }
 
 /* ==========================================================================
@@ -589,6 +598,83 @@ button, input, select, textarea {
   font-size: 0.9rem;
   color: var(--text-muted);
   line-height: 1.5;
+}
+
+/* ==========================================================================
+   SHOPEE OFFICIAL STORE BANNER CTA
+   ========================================================================== */
+.shopee-banner-section {
+  background: linear-gradient(135deg, #0F1C8E 0%, #1B2CC1 100%);
+  color: var(--text-white);
+  padding: 64px 0;
+  margin-top: 20px;
+}
+
+.shopee-banner-container {
+  text-align: center;
+}
+
+.shopee-banner-content {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.shopee-banner-badge {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  background-color: rgba(255, 255, 255, 0.16);
+  padding: 4px 14px;
+  border-radius: 999px;
+  margin-bottom: 16px;
+  color: #ffffff;
+}
+
+.shopee-banner-title {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 6px;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.shopee-banner-subtitle {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: rgba(255, 255, 255, 0.9);
+  margin-bottom: 12px;
+  letter-spacing: 0.04em;
+}
+
+.shopee-banner-desc {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.82);
+  line-height: 1.55;
+  margin-bottom: 28px;
+}
+
+.btn-shopee-banner {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  padding: 14px 32px;
+  background-color: #ffffff;
+  color: var(--primary-blue);
+  font-size: 1rem;
+  font-weight: 700;
+  border-radius: 8px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.16);
+  transition: var(--transition);
+}
+
+.btn-shopee-banner:hover {
+  background-color: #f8f9ff;
+  color: var(--primary-blue-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(0, 0, 0, 0.22);
 }
 
 /* ==========================================================================

@@ -3,7 +3,7 @@
  * Clean, verified product catalog for sealer machine spare parts.
  */
 
-const SHOPEE_STORE_URL = "https://shopee.co.id/megapartsealer";
+const SHOPEE_STORE_URL = "https://id.shp.ee/gt9T94Rx";
 const WHATSAPP_NUMBER = "6281234567890";
 
 const categories = [
@@ -37,7 +37,7 @@ const products = [
       "Kustomisasi": "Bisa custom ukuran",
       "Kompatibilitas": "Hand Sealer & Impulse Sealer tipe 500 / 50cm"
     },
-    shopeeUrl: "https://shopee.co.id/search?keyword=Kawat%20Motif%20FS-500%20Sealer"
+    shopeeUrl: "https://id.shp.ee/gt9T94Rx"
   },
   {
     id: 2,
@@ -61,7 +61,7 @@ const products = [
       "Kustomisasi": "Bisa custom ukuran",
       "Kompatibilitas": "Hand Sealer & Impulse Sealer tipe 300 / 30cm"
     },
-    shopeeUrl: "https://shopee.co.id/search?keyword=Kawat%20Motif%20FS-300%20Sealer"
+    shopeeUrl: "https://id.shp.ee/gt9T94Rx"
   },
   {
     id: 3,
@@ -85,7 +85,7 @@ const products = [
       "Kustomisasi": "Bisa custom ukuran",
       "Kompatibilitas": "Hand Sealer & Impulse Sealer tipe 400 / 40cm"
     },
-    shopeeUrl: "https://shopee.co.id/search?keyword=Kawat%20Motif%20FS-400%20Sealer"
+    shopeeUrl: "https://id.shp.ee/gt9T94Rx"
   },
   {
     id: 4,
@@ -109,7 +109,7 @@ const products = [
       "Kustomisasi": "Bisa custom ukuran",
       "Kompatibilitas": "Hand Sealer 200 / 300 Series"
     },
-    shopeeUrl: "https://shopee.co.id/search?keyword=Kawat%20Polos%20FS-300%20Sealer"
+    shopeeUrl: "https://id.shp.ee/gt9T94Rx"
   },
   {
     id: 5,
@@ -133,7 +133,7 @@ const products = [
       "Kustomisasi": "Bisa custom ukuran",
       "Kompatibilitas": "Hand Sealer & Pedal Sealer 500 / 50cm"
     },
-    shopeeUrl: "https://shopee.co.id/search?keyword=Kawat%20Polos%20FS-500%20Sealer"
+    shopeeUrl: "https://id.shp.ee/gt9T94Rx"
   },
   {
     id: 6,
@@ -157,7 +157,7 @@ const products = [
       "Material": "Fiberglass High Temperature Woven Fabric",
       "Kompatibilitas": "Seluruh tipe Hand Sealer, Impulse Sealer, & Pedal Sealer"
     },
-    shopeeUrl: "https://shopee.co.id/search?keyword=Kain%20Sealer%20Penahan%20Panas"
+    shopeeUrl: "https://id.shp.ee/gt9T94Rx"
   },
   {
     id: 7,
@@ -181,7 +181,7 @@ const products = [
       "Ketahanan Suhu": "Hingga 300°C",
       "Kompatibilitas": "Hand Sealer, Impulse Sealer, Vacuum Sealer, & Continuous Sealer"
     },
-    shopeeUrl: "https://shopee.co.id/search?keyword=Kain%20Teflon%20Sealer%20PTFE"
+    shopeeUrl: "https://id.shp.ee/gt9T94Rx"
   }
 ];
 

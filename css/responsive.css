@@ -144,8 +144,26 @@
 
   .product-card-actions {
     flex-direction: column;
-    align-items: flex-start;
+    align-items: stretch;
     gap: 6px;
+  }
+
+  .shopee-banner-section {
+    padding: 44px 0;
+  }
+
+  .shopee-banner-title {
+    font-size: 1.6rem;
+  }
+
+  .shopee-banner-subtitle {
+    font-size: 1rem;
+  }
+
+  .btn-shopee-banner {
+    width: 100%;
+    padding: 13px 20px;
+    font-size: 0.95rem;
   }
 
   .detail-cta-group {
